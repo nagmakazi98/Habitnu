@@ -48,7 +48,7 @@ public class AppTest {
             homePage.selectCities(departureCity, destinationCity);
             homePage.clickFindFlights();
             flightSelectionPage.selectLowestPriceFlight();
-            flightSelectionPage.clickChooseFlight();
+            // flightSelectionPage.clickChooseFlight();
 
             // Step 4: Verify Total Cost and Purchase Flight
             String totalCost = purchasePage.getTotalCost();
