@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BlazeDemo Test Suite">
+    <test name="BlazeDemo Tests">
+        <parameter name="browser" value="chrome"/> <!-- Optional: Add browser parameter if needed -->
+        <classes>
+            <class name="com.example.AppTest"/> <!-- Correct package and class name -->
+        </classes>
+    </test>
+</suite>
